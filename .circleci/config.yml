@@ -37,7 +37,7 @@ steps:
           name: Configure Github credentials
           command: |
             git config user.email s3739554@student.rmit.edu.au
-            git config user.name memetalikir
+            git config user.name mehmetalikir
       - add_ssh_keys:
           fingerprints:
             - $GITHUB_FINGERPRINT
