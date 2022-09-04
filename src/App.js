@@ -9,6 +9,7 @@ import Tutorial from "./components/tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
 
 class App extends Component {
+
   render() {
     return (
       <div>
@@ -43,6 +44,7 @@ class App extends Component {
             <Route path="/tutorials/:id" component={Tutorial} />
           </Switch>
         </div>
+
       </div>
     );
   }
