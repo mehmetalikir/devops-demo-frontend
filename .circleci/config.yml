@@ -23,7 +23,7 @@ jobs:
           #command: npm run test
 
   deploy:
-    #working_directory: ~/repo
+    working_directory: ~/repo
     docker:
       - image: circleci/node:10.16.3
     steps:
