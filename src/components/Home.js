@@ -14,7 +14,7 @@ export default class AddTutorial extends Component {
     render() {
         return (
 
-            <h1>Welcome Home Page</h1>
+            <h1>Welcome Home Page  2</h1>
 
         );
     }
