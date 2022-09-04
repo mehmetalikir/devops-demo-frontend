@@ -1,39 +1,45 @@
-version: 2.1
+version: 2
 jobs:
   build:
-    #working_directory: ~/repo
+    working_directory: ~/repo
     docker:
-      - image: cimg/node:16.13.2
+      - image: circleci/node:10.16.3
     steps:
       - checkout
       - run:
-          name: Update NPM
-          command: "sudo npm install -g npm"
+          name: update-npm
+          command: "sudo npm install -g npm@5"
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
-          name: Install Dependencies
+          name: install-packages
           command: npm install
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
             - ./node_modules
       - run:
-          name: Build React App
-          command: npm run build
-      - save_cache:
-          key: app-build-cache-{{ .Branch }}
-          paths:
-            - ./build
-      #- run:
-         # name: Deploy to Azure
-         # command: ./node_modules/.bin/netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_ACCESS_TOKEN --prod --dir=build
+          name: Run tests
+          command: npm run test
+
+  deploy:
+    #working_directory: ~/repo
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run:
+          name: Deploy to Azure Web App Using Azure Container Registry Task
+          command: npm run deploy
+
 workflows:
   version: 2
-  build-deploy:
+  build:
     jobs:
-      - build:
+      - build
+      - deploy:
+          requires:
+            - build # only deploy once build job has completed
           filters:
             branches:
-              only:
-                - main
+              only: main # only deploy on the main branch

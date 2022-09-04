@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 import AddTutorial from "./components/add-tutorial.component";
-import group5 from "./components/group5";
 import Home from "./components/Home";
 import Tutorial from "./components/tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
@@ -33,11 +32,6 @@ class App extends Component {
                 Add
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to={"/group5"} className="nav-link">
-                group5
-              </Link>
-            </li>
           </div>
         </nav>
 
@@ -47,7 +41,6 @@ class App extends Component {
             <Route exact path="/add" component={AddTutorial} />
             <Route exact path="/home" component={Home} />
             <Route path="/tutorials/:id" component={Tutorial} />
-            <Route exact path="/group5" component={group5} />
           </Switch>
         </div>
       </div>
