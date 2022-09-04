@@ -28,9 +28,9 @@ jobs:
       - image: circleci/node:10.16.3
     steps:
       - checkout
-      - run:
-          name: Deploy to Azure Web App Using Azure Container Registry Task
-          command: npm run deploy
+     # - run:
+        #  name: Deploy to Azure Web App Using Azure Container Registry Task
+         # command: npm run deploy
 
 workflows:
   version: 2
