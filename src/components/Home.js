@@ -17,11 +17,10 @@ export default class AddTutorial extends Component {
 
             <li className="test">
               <h1> Welcome to Home Page 03 </h1>
-                <h2> This is That </h2>
-
-                    <h3> That is This </h3>
+                <h6> This is That </h6>
+                    <h10> That is This </h10>
                 <div>
-                    <img src="https://res.cloudinary.com/generation/image/upload/w_1150,q_auto,f_auto/australia/2019/04/25k-Announcement-1556x874-tiny.jpg" alt="Generation Australia" width="600" height="200"/>
+                    <img src="https://res.cloudinary.com/generation/image/upload/w_1150,q_auto,f_auto/australia/2019/04/25k-Announcement-1556x874-tiny.jpg" alt="Generation Australia" width="800" height="300"/>
                 </div>
 
             </li>
