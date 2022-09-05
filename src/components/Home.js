@@ -16,7 +16,7 @@ export default class AddTutorial extends Component {
         return (
 
             <li className="test">
-              <h1> Welcome to Home Page 02 </h1>
+              <h1> Welcome to Home Page 03 </h1>
                 <h2> This is That </h2>
 
                     <h3> That is This </h3>
