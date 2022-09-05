@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand navbar-dark bg-primary">
+        <nav className="navbar navbar-expand navbar-dark bg-success">
           <Link to={"/tutorials"} className="navbar-brand">
             Generation Au Demo
           </Link>
