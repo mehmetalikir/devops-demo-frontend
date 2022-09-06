@@ -14,7 +14,14 @@ h10 {
     color: #00843D;
     background: #FFCD00;
 }
+#img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#img-wrapper > div {
+    flex: 0 1 33%;
+}
 /*.test {
     margin: auto;
     color: red;
