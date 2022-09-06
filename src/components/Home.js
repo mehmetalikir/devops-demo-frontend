@@ -15,10 +15,9 @@ export default class AddTutorial extends Component {
     render() {
         return (
 
-            <div className="row">
-                <div className="column">  <img src="https://img.freepik.com/premium-vector/cartoon-little-boy-graduation-costume-holding-diploma_353337-1074.jpg?" /></div>
-                <div className="column">  <img src="https://img.freepik.com/premium-vector/cartoon-little-boy-graduation-costume-holding-diploma_353337-1074.jpg?" /></div>
-                <div className="column">  <img src="https://img.freepik.com/premium-vector/beautiful-girl-graduation-day-with-diploma-illustration_43633-12251.jpg?w=740"/></div>
+            <div className="container">
+                <div><img src="https://img.freepik.com/premium-vector/cartoon-little-boy-graduation-costume-holding-diploma_353337-1074.jpg?w=740" /></div>
+                <div><img src="https://img.freepik.com/premium-vector/beautiful-girl-graduation-day-with-diploma-illustration_43633-12251.jpg?w=740" /></div>
             </div>
 
         );
