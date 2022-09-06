@@ -20,7 +20,7 @@ export default class AddTutorial extends Component {
                 <h6> This is That </h6>
                     <h10> That is This </h10>
                 <div>
-                    <img src="https://marketplace.canva.com/EAE9wGnqUWM/1/0/1600w/canva-congratulations-%28card-%28landscape%29%29-1D77KxLljgM.jpg"/>
+                    <img src="https://marketplace.canva.com/EAE9wGnqUWM/1/0/1600w/canva-congratulations-%28card-%28landscape%29%29-1D77KxLljgM.jpg" alt="Example image/>
                 </div>
             </li>
 
