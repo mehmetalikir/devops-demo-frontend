@@ -14,8 +14,11 @@ export default class AddTutorial extends Component {
 
     render() {
         return (
-
-            <div className="container">
+            <div>
+                <h1> Welcome to Home Page 00 </h1>
+                <h3> This is That </h3>
+                <h5> That is This </h5>
+                <div className="container">
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-boy-black-gown-holding-diploma_43633-12257.jpg?w=740" /></div>
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-little-girl-graduation-costume-holding-diploma_353337-1076.jpg?w=740" /></div>
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-boy-graduation-celebration-white-background_353337-1078.jpg?w=740" /></div>
@@ -25,7 +28,7 @@ export default class AddTutorial extends Component {
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-little-boy-graduation-costume-holding-diploma_353337-1074.jpg?w=740" /></div>
                 <div><img src="https://img.freepik.com/premium-vector/beautiful-girl-graduation-day-with-diploma-illustration_43633-12251.jpg?w=740" /></div>
             </div>
-
+            </div>
         );
     }
 }
