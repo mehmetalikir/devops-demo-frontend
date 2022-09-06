@@ -1,9 +1,21 @@
-.test {
-    margin: auto;
-    color: aqua;
-    background: azure;
-}
+
 .h1 {
     margin: auto;
-    color: red;
+    color: #000000;
+    background: azure;
 }
+.h6 {
+    margin: auto;
+    color: #40E0D0;
+    background: #2F4F4F;
+}
+.h10 {
+    margin: auto;
+    color: #00843D;
+    background: #FFCD00;
+}
+
+/*.test {
+    margin: auto;
+    color: red;
+} */
