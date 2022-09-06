@@ -4,12 +4,13 @@ h1 {
     color: #000000;
     background: azure;
 }
-h6 {
+h3 {
     margin: auto;
-    color: turquoise;
-    background: #2F4F4F;
+    color: cyan;
+    accent-color: rgb(255, 0, 0);
+    background: #FFFFFF;
 }
-h10 {
+h5 {
     margin: auto;
     color: #00843D;
     background: #FFCD00;
