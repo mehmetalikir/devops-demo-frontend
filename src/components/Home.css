@@ -14,15 +14,18 @@ h10 {
     color: #00843D;
     background: #FFCD00;
 }
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 10px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 /*.test {
     margin: auto;
