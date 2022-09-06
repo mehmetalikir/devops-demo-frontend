@@ -14,13 +14,15 @@ h10 {
     color: #00843D;
     background: #FFCD00;
 }
-#img-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
 }
 
-#img-wrapper > div {
-    flex: 0 1 33%;
+img {
+    width: 200px;
+    height: 200px;
 }
 /*.test {
     margin: auto;
