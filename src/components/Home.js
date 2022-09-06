@@ -20,7 +20,7 @@ export default class AddTutorial extends Component {
                 <h6> This is That </h6>
                     <h10> That is This </h10>
                 <div>
-                    <img src="https://res.cloudinary.com/generation/image/upload/w_1150,q_auto,f_auto/australia/2019/04/25k-Announcement-1556x874-tiny.jpg" alt="Generation Australia" width="800" height="300"/>
+                    <img src="https://marketplace.canva.com/EAE9wGnqUWM/1/0/1600w/canva-congratulations-%28card-%28landscape%29%29-1D77KxLljgM.jpg" alt="Generation Australia" width="800" height="300"/>
                 </div>
 
             </li>

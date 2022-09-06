@@ -15,7 +15,7 @@ class App extends Component {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-success">
           <Link to={"/tutorials"} className="navbar-brand">
-            Generation Au Demo
+            SpaceKids Au Demo
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
