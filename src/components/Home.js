@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 
-export default class AddTutorial extends Component {
+export default class Home extends Component {
     constructor(props) {
         super(props);
 
@@ -16,8 +16,8 @@ export default class AddTutorial extends Component {
         return (
             <div>
                 <h1> Welcome to Home Page 00 </h1>
-                <h3> This is That </h3>
-                <h5> That is This </h5>
+                <h3> This is that </h3>
+                <h5> That is this </h5>
                 <div className="container">
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-boy-black-gown-holding-diploma_43633-12257.jpg?w=740" /></div>
                 <div><img src="https://img.freepik.com/premium-vector/cartoon-little-girl-graduation-costume-holding-diploma_353337-1076.jpg?w=740" /></div>
